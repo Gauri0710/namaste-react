@@ -4,6 +4,8 @@
   "description": "This is namaste react",
   "source": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -24,7 +26,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
-  "browserlist":{
+  "browserslist": [
     "last 2 versions"
-  }
+  ]
 }
