@@ -1,3 +1,23 @@
-#heading{
-  color:red
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  border:1px solid black;
+  height: 70px;;
+}
+.logo{
+  height:70px;
+  width: 100px;;
+  object-fit:contain;
+  display: block;
+}
+.nav-items > ul {
+  display:flex;  
+  list-style-type:none; 
+  font-size: 22px;
+}
+.nav-items>ul>li{
+  
+  padding:10px;
+  margin:10px
 }
