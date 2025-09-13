@@ -24,6 +24,7 @@
 .res-container{
   display:flex;
   flex-wrap:wrap;
+  background-color:#FF9B00
 }
 .res-card{
   border:1px solid black;
@@ -36,9 +37,9 @@
   cursor :pointer;
   box-shadow: 5px 5px 5px 5px grey;
 }
-.search{
-  padding:10px;
-  margin:10px;
+.filter-btn{
+  cursor:pointer;  
+  margin:10px; 
 }
 .res-logo{
   height:140px;
@@ -46,3 +47,5 @@
   object-fit:cover;
   
 }
+
+  
